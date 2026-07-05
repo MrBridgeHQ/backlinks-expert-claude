@@ -1,4 +1,4 @@
-# backlinks-expert — Claude Code Agent Skill
+# backlinks-expert - Claude Code Agent Skill
 
 An Agent Skill **for Claude** (Claude Code / claude.ai). **Target LLM: Claude.**
 

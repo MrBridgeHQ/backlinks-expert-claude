@@ -1,6 +1,6 @@
-# Installation — Backlinks Expert skill
+# Installation - Backlinks Expert skill
 
-This skill is designed to be installed at the **user level** in Claude Code, so it's available across all your projects without copying it into each repo. It is pure doctrine (Markdown only) — there are no scripts and no dependencies to install.
+This skill is designed to be installed at the **user level** in Claude Code, so it's available across all your projects without copying it into each repo. It is pure doctrine (Markdown only) - there are no scripts and no dependencies to install.
 
 ## Prerequisites
 
@@ -54,13 +54,13 @@ You should see `backlinks-expert` in the list. If not, check that the SKILL.md f
 
 In any Claude Code session, ask:
 
-> "Plan a link-building campaign for a brand-new SaaS landing page — give me the tactic mix, anchor distribution, and velocity."
+> "Plan a link-building campaign for a brand-new SaaS landing page - give me the tactic mix, anchor distribution, and velocity."
 
 The skill should activate, route to STRATEGIZE mode, and produce a per-property campaign brief (posture → tier ratio → anchor mix → velocity → sequence → KPIs), pulling from `references/campaign-planning.md` and `references/property-profiles.md`.
 
 To test the qualification gate:
 
-> "Here's a 'top 50 dofollow forums' list — which of these are actually worth using?"
+> "Here's a 'top 50 dofollow forums' list - which of these are actually worth using?"
 
 The skill should route to DISCOVER/QUALIFY, treat every entry as UNVERIFIED, and walk the `references/qualification.md` checklist (relevance → live dofollow → indexation → metric → spam → traffic → OBL → penalty/PBN → activity) rather than trusting the list's claims.
 
@@ -91,4 +91,4 @@ Auto-activation depends on the `description` in `SKILL.md`'s frontmatter. Trigge
 
 ## Support
 
-This skill is link-building doctrine. To improve it (new opportunity types, refreshed seed targets, updated policy notes), edit the relevant `references/*.md` file directly — the reference files are the authoritative surface and `SKILL.md` routes to them.
+This skill is link-building doctrine. To improve it (new opportunity types, refreshed seed targets, updated policy notes), edit the relevant `references/*.md` file directly - the reference files are the authoritative surface and `SKILL.md` routes to them.
